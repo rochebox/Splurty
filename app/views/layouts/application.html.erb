@@ -5,22 +5,33 @@
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
+  <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+
 </head>
 <body>
 	<header>
-		<div class="col-xs-3">
-			LOGO
+		<div class="col-xs-3 circle-container">
+			<div class="circle">
+			  <br />
+			  Play It
+			  <br />
+			  Live It
+			  <br />
+			  Love It
+			</div>
 		</div>
-		<div class="col-xs-4">
-			Splurting out unsolicited advice about Rock n' Roll Guitar playing since 2015.  <br>You know you want to Rock when you say.....
+		<div class="col-xs-4 slogan">
+			<p id="top-slogan">Splurting unsolicited advice about Rock n' Roll, since 2015 . . . </p> 
+			<p id ="bottom-slogan">You know you want to <span id="rockIt">Rock</span> when you say:</p>
 		</div>
-		<div class="col-xs-5">
-			<%= link_to 'Contribute', '#' %>
-			<%= link_to 'About', '#' %>
+		<div class="col-xs-5 links">
+			<span id="contrib-link"><%= link_to 'Contribute', '#' %></span>
+			<span id="about-link"><%= link_to 'About', '#' %></span>
 
 		</div>
 
 	</header>
+	<hr />
 	<br class="clear">
 
 <%= yield %>
