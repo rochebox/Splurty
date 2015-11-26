@@ -1,3 +1,7 @@
+
+@import url(https://fonts.googleapis.com/css?family=Fredoka+One);
+
+
 .clear {
 	clear:both;
 }
@@ -34,21 +38,31 @@ div.circle:hover {
 
 
 
-.slogan{
-	font-family: 'Indie Flower', cursive;
-	font-weight: bold;
-	padding-top: 26px;
-
+.slogan{	
+	padding-top: 18px;
 }
 
  #top-slogan{
- 	color:#808080;
- 	font-size: 14pt;
- 	font-style: italic;
+ 	font-family: 'pincoyablackblack';
+ 	/* color:#808080;  grey... */
+ 	color: #5c00e6;
+ 	/* color: #3333cc;  Dark purple */
+ 	/* color: #000066;   Med-Dark purple */
+ 	/* color: #00004d;  Darker purple */
+ 	font-size: 40pt;
+ 	
+ }
+ span#top-word1:hover{
+ 	color: #9900ff;  /* light purple color */
+ }
+ span#top-word2:hover{
+ 	color: #9900ff;  /* light purple color */
  }
 
   #bottom-slogan{
+  	font-family: 'Indie Flower', cursive;
  	color:#00001a;
+ 	font-weight: bold;
  	font-size: 24pt;
  }
 
@@ -61,7 +75,7 @@ div.circle:hover {
 }
 
  .links{
- 	padding-top: 18px;
+ 	padding-top: 24px;
  	font-family: 'Indie Flower', cursive;
 	font-weight: bold;
 	
@@ -69,14 +83,14 @@ div.circle:hover {
 
 .links a {
 	color:#808080;
- 	font-size: 18pt;
+ 	font-size: 16pt;
  	text-decoration:none;
  	/* border-bottom: 2px ridge  */ /* #dfdfdf */;
 }
 .links a:hover{
 	text-decoration:none;
 	/*background-color:#ffff99;*/
-	color: #9900ff;  /* purple color */
+	color: #9900ff;  /* light purple color */
 	padding:0;
 }
 .links a:active{
@@ -114,6 +128,20 @@ hr {
 	height: 18px;
 	border: 0;
 	box-shadow: inset 0 18px 18px -18px rgba(102, 0, 204, 0.5);
+}
+
+h1 {
+	font-family: 'Fredoka One', cursive;
+	/* font-family: "Helvetica Neue", Helvetica, sans-serif; */
+	/* font-weight:600; */
+	/* letter-spacing: -1.5px; */
+}
+
+h2 {
+	font-family: 'Fredoka One', cursive;
+	/* font-family: "Helvetica Neue", Helvetica, sans-serif; */
+	/* font-weight:600; */
+	/* letter-spacing: -1.5px; */
 }
 
 
