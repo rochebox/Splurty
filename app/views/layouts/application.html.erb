@@ -11,6 +11,7 @@
 <body>
 	<header>
 		<div class="col-xs-3 circle-container">
+		<%= link_to root_path, :class => 'logo' do %>
 			<div class="circle">
 			  <br />
 			  Play It
@@ -19,6 +20,7 @@
 			  <br />
 			  Love It
 			</div>
+		<% end %>
 		</div>
 		<div class="col-xs-4 slogan">
 			<!-- ideas  splurty words,  splurty riffs, splurty riff-ic, splurty riff it! -->
@@ -26,7 +28,7 @@
 			<p id ="bottom-slogan">You know you want to <span id="rockIt">Rock</span> when you say . . . </p>
 		</div>
 		<div class="col-xs-5 links">
-			<span id="contribute-line-thing"><%= link_to 'Contribute', '#', :class => 'contribute-link' %></span>
+			<span id="contribute-line-thing"><%= link_to 'Contribute', new_quote_path, :class => 'contribute-link' %></span>
 			<span id="about-line-thing"><%= link_to 'About', '#', :class => 'about-link' %></span>
 
 		</div>
@@ -43,7 +45,7 @@
 	<div class ="footer">
 		<div class="container footerContainer">
 			<div class="col-xs-6 next-quote-div">
-				<%= link_to "This isn't rockin' enough, I need more!", "#", :class => 'next-quote' %>
+				<%= link_to "This isn't rockin' enough, I need more!", root_path, :class => 'next-quote' %>
 			</div>
 			<div class="col-xs-6 footer-blurb">
 				Proudly hacked in Southborough, MA by<br />

@@ -108,7 +108,9 @@ div.circle:hover {
 
  .about-link{
  	font-family: 'Indie Flower', cursive;
- 	color: #9900ff;  /* light purple color */
+ 	/* color: #9900ff;  light purple color */
+ 	/* color : #000066;  darkish purple */
+ 	color: #6600cc;  /* little bit darker purple */
  	
  	font-size: 16pt;
  }
@@ -201,17 +203,16 @@ h2 {
  	font-size: 10pt;	
 }
 
-#myName{
-	font-family: 'Fredoka One', cursive;
-	/* font-family: 'pincoyablackblack'; */
-	
-}
 
 #footer-hack-link, #shameless-promotion-link{
 	/* color: #9900ff;  light purple color */
 	font-family: 'Fredoka One', cursive;
 	color: #6600cc;  /* little bit darker purple */
 		
+}
+
+.logo:hover {
+	text-decoration:none;
 }
 
 
