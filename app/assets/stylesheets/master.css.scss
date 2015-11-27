@@ -15,8 +15,9 @@
     font-style: italic;
     position: relative;
     border-radius: 100%;
-    background: #f84342;
-    border: 1px solid #F7F7F7;
+    background: #f84342;  /* red color */
+    border: 1px solid #F7F7F7; 
+    /* border: 1px solid #5c00e6;    try it with middle purple border */
     width: 80px;
     height: 80px;
     margin: 10px 10px;
@@ -45,11 +46,11 @@ div.circle:hover {
  #top-slogan{
  	font-family: 'pincoyablackblack';
  	/* color:#808080;  grey... */
- 	color: #5c00e6;
+ 	color: #5c00e6;    /* middle purple */
  	/* color: #3333cc;  Dark purple */
  	/* color: #000066;   Med-Dark purple */
  	/* color: #00004d;  Darker purple */
- 	font-size: 40pt;
+ 	font-size: 42pt;
  	
  }
  span#top-word1:hover{
@@ -76,47 +77,73 @@ div.circle:hover {
 
  .links{
  	padding-top: 24px;
- 	font-family: 'Indie Flower', cursive;
-	font-weight: bold;
 	
  }
 
-.links a {
-	color:#808080;
+
+ .contribute-link{
+ 	font-family: 'Indie Flower', cursive;
+ 	color: #f84342;  /* red color */
  	font-size: 16pt;
- 	text-decoration:none;
- 	/* border-bottom: 2px ridge  */ /* #dfdfdf */;
-}
-.links a:hover{
+ }
+ 	
+
+.contribute-link:hover{
 	text-decoration:none;
-	/*background-color:#ffff99;*/
 	color: #9900ff;  /* light purple color */
 	padding:0;
 }
-.links a:active{
+.contribute-link:active{
 	text-decoration:none;
 	/*background-color:#ff9999;*/
-	color: #f84342;  /* red color */
+	color: #00004d;  /* dark purple */
 	padding:0;
 }
 
-//.links a:visited{
+//.contribute-link:visited{
 //	text-decoration:none;
-//	color: #009900;  /* green color */
-	
+//	color: #009900;  /* green color */	
 //}
 
 
-#contrib-link {
-	padding: 1px; 
-	border-bottom: 4px ridge #f84342;  /* red color */
-	
+ .about-link{
+ 	font-family: 'Indie Flower', cursive;
+ 	color: #9900ff;  /* light purple color */
+ 	
+ 	font-size: 16pt;
+ }
+ 	
+
+.about-link:hover{
+	text-decoration:none;
+	color: #f84342;  /* red color */
+	padding:0;
+}
+.about-link:active{
+	text-decoration:none;
+	color: #660000;  /* darker red color */
+	padding:0;
 }
 
-#about-link {
+//.about-link:visited{
+//	text-decoration:none;
+//	color: #009900;  /* green color */	
+//}
+
+/* trying to split up contribute and about... */
+
+
+#contribute-line-thing {
 	padding: 1px; 
 	border-bottom:  4px ridge #9900ff;  /* purple color */
 }
+
+#about-line-thing {
+	padding: 1px; 
+	border-bottom:  4px ridge #f84342;  /* red color */
+}
+
+
 
 header {
 	border-top: 9px solid #222222;
@@ -131,6 +158,7 @@ hr {
 }
 
 h1 {
+	color : #000066;  /* darkish purple */
 	font-family: 'Fredoka One', cursive;
 	/* font-family: "Helvetica Neue", Helvetica, sans-serif; */
 	/* font-weight:600; */
@@ -138,10 +166,53 @@ h1 {
 }
 
 h2 {
+	color : #000066;  /* darkish purple */
 	font-family: 'Fredoka One', cursive;
 	/* font-family: "Helvetica Neue", Helvetica, sans-serif; */
 	/* font-weight:600; */
 	/* letter-spacing: -1.5px; */
 }
+
+.next-quote{
+	
+	font-family: 'Indie Flower', cursive;
+ 	color: #f84342;  /* red color */
+ 	font-size: 18pt;
+}
+
+.next-quote:hover{
+	color: #9900ff;  /* light purple color like the header*/
+	padding:0;
+}
+
+.next-quote:active{
+	color: #00004d;  /* dark purple */
+	padding:0;
+}
+
+//.next-quote:visited{
+//	text-decoration:none;
+//	color: #009900;  /* green color */
+//}
+
+.footer-blurb{
+	font-family: 'Indie Flower', cursive;
+ 	color: #9900ff;  /* light purple color */
+ 	font-size: 10pt;	
+}
+
+#myName{
+	font-family: 'Fredoka One', cursive;
+	/* font-family: 'pincoyablackblack'; */
+	
+}
+
+#footer-hack-link, #shameless-promotion-link{
+	/* color: #9900ff;  light purple color */
+	font-family: 'Fredoka One', cursive;
+	color: #6600cc;  /* little bit darker purple */
+		
+}
+
 
 
