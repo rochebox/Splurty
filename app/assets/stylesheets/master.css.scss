@@ -215,5 +215,62 @@ h2 {
 	text-decoration:none;
 }
 
+.container {
+	font-family: 'Fredoka One', cursive;
+	color: blue;
+	font-size: 16pt;
+}
+
+.about-para {
+	color : #000066;  /* darkish purple */
+	
+}
+.about-title {
+	
+	font-family: 'pincoyablackblack';
+	color: #5c00e6;    /* middle purple */
+	font-size: 38pt;
+	/* color : #000066;  darkish purple */
+}
+.about-header {
+	font-size: 30pt;
+}
+
+.about-names {
+	font-family: 'pincoyablackblack';
+	color: #5c00e6;    /* middle purple */
+	font-size: 32pt;
+}
+
+ .about-page-links{
+ 	/* color : #000066;  darkish purple */
+ 	/* color: #6600cc;  /* little bit darker purple */
+ 	color: #5c00e6;    /* middle purple */
+ }
+ 	
+
+.about-page-links:hover{
+	text-decoration:none;
+	color: #f84342;  /* red color */
+	
+}
+.about-page-links:active{
+	text-decoration:none;
+	color: #660000;  /* darker red color */
+
+}
+
+//.about-link:visited{
+//	text-decoration:none;
+//	color: #009900;  /* green color */	
+//}
+
+.about-pic-formatting{
+	margin-top:110px;
+}
+
+.about-pic-short-break {
+	margin-top:30px;
+}
 
 
