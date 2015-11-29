@@ -64,7 +64,8 @@ div.circle:hover {
   	font-family: 'Indie Flower', cursive;
  	color:#00001a;
  	font-weight: bold;
- 	font-size: 24pt;
+ 	/* font-size: 24pt; */
+ 	font-size:18pt;
  }
 
  #rockIt{
@@ -136,7 +137,8 @@ div.circle:hover {
 
 
 #contribute-line-thing {
-	padding: 1px; 
+	padding-top: 1px;
+	margin-right: 10px;
 	border-bottom:  4px ridge #9900ff;  /* purple color */
 }
 
@@ -217,7 +219,8 @@ h2 {
 
 .container {
 	font-family: 'Fredoka One', cursive;
-	color: blue;
+	/* color: blue; */
+	color : #000066;  /* darkish purple */
 	font-size: 16pt;
 }
 
@@ -271,6 +274,10 @@ h2 {
 
 .about-pic-short-break {
 	margin-top:30px;
+}
+
+.new-quote-heading {
+	color : #000066;  /* darkish purple */
 }
 
 
