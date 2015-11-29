@@ -1,6 +1,11 @@
 
 @import url(https://fonts.googleapis.com/css?family=Fredoka+One);
 
+/* This is from the final touches lesson.... */
+::selection {
+	background-color: #f84342;
+}
+
 
 .clear {
 	clear:both;
@@ -300,6 +305,28 @@ h2 {
 	/* color: #5c00e6;    middle purple */
 	color: #9900ff;  /* light purple color */
 	font-size:32pt;
+	
+}
+
+@media (max-width: 750px){
+	.footer-blurb {
+		text-align: left;
+	}
+}
+
+h2 span {
+  font-family: 'Indie Flower', cursive;
+  /* color: #dddddd; */
+  color: #5c00e6;    /* middle purple */
+  font-weight:bold;
+}
+
+.big-quote{
+	/* font-family: 'Indie Flower', cursive; */
+	color: #5c00e6;    /* middle purple */
+  	font-weight:bold;
+  	font-style: italic;
+  	font-size:38pt;
 	
 }
 

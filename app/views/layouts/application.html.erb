@@ -22,18 +22,18 @@
 			</div>
 		<% end %>
 		</div>
-		<div class="col-xs-5 slogan">
+		<div class="col-sm-5 hidden-xs slogan">
 			<!-- ideas  splurty words,  splurty riffs, splurty riff-ic, splurty riff it! -->
 			<p id="top-slogan"><span id="top-word1">Splurty</span> <span id="top-word2">Riff-it!</span></p> 
 			<p id ="bottom-slogan">You know you want to <span id="rockIt">Rock</span> when you say. . .</p>
 		</div>
-		<div class="col-xs-4 links">
+		<div class="col-xs-8 col-xs-offset-1 col-sm-offset-0 col-sm-4 links">
 			<!-- Button Trigger Modal -->
 			<span id="contribute-line-thing">
 			<%= link_to 'Contribute a Quote', '#' , :class => 'contribute-link', :data => {:toggle => 'modal', :target => '#myModal'} %>
 			 </span >
 
-
+			 &nbsp; &nbsp;
 			 <!-- button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" -->
    			 <!-- Launch demo modal -->
  			 <!-- /button -->
@@ -64,8 +64,9 @@
       		  <div class="modal-body modal-fonts">
         	  <!-- this is the code from new.html.erb -->
 				
-					<%= f.input :saying, :class => 'btn btn-danger ' %>
-					<%= f.input :author %>
+					<%= f.input :saying, :label => "What is the quote you would like to add?", :placeholder => "[like this (no quote marks)-->] Tonight we roll to the guitar bite . . .", :class => 'btn btn-danger ' %>
+					<br />
+					<%= f.input :author, :label => "Who is the author of this Rockin' quote?", :placeholder => "[Author(s), e.g.]-->Angus Young, Malcolm Young and Brian Johnson (AC/DC)" %>
 					<br />
 				</div>		
 
@@ -100,10 +101,10 @@
 
 	<div class ="footer">
 		<div class="container footerContainer">
-			<div class="col-xs-6 next-quote-div">
+			<div class="col-xs-12 col-sm-6 next-quote-div">
 				<%= link_to "This isn't rockin' enough, I need more!", root_path, :class => 'next-quote' %>
 			</div>
-			<div class="col-xs-6 footer-blurb">
+			<div class="col-xs-12 col-sm-6 footer-blurb">
 				Proudly hacked in Southborough, MA by<br />
 				<a id="footer-hack-link" href="http://christopher-roche.com" target="_blank">Chris R (formerly from Brooklyn, NY)</a><br />
 				Want to build your own Splurty Web App? <br />
