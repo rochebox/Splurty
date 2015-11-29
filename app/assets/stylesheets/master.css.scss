@@ -132,7 +132,7 @@ div.circle:hover {
 //	text-decoration:none;
 //	color: #009900;  /* green color */	
 //}
-
+ 
 /* trying to split up contribute and about... */
 
 
@@ -278,6 +278,29 @@ h2 {
 
 .new-quote-heading {
 	color : #000066;  /* darkish purple */
+}
+
+.modal-fonts{
+	font-family: 'Fredoka One', cursive;
+	color: #6600cc;  /* little bit darker purple */
+	font-size: 18pt;
+}
+
+#myModalLabel{
+	/* font-family: 'pincoyablackblack'; */
+	font-family: 'Indie Flower', cursive;
+	color: #5c00e6;    /* middle purple */
+	font-size: 24pt;
+}
+.modal-button-color{
+	color: #5c00e6;    /* middle purple */	
+}
+#modal-logo{
+	font-family: 'pincoyablackblack';
+	/* color: #5c00e6;    middle purple */
+	color: #9900ff;  /* light purple color */
+	font-size:32pt;
+	
 }
 
 
