@@ -5,8 +5,9 @@
 /* color:#808080;  grey... */
 /* color: #f84342;  red color */
 /* color: #9900ff;  light purple color */
-/* color: #5c00e6;   middle purple */
+/* color: #5c00e6;   middle purple -- logo purple */
 /* color: #6600cc;  little bit darker purple */
+/* color: #4c0099;  steps from middle purple */
 /* color: #000066;   Med-Dark purple */
 /* color: #3333cc;  Dark purple */
 /* color: #00004d;  Darker purple */
@@ -67,22 +68,39 @@ div.circle:hover {
  	font-family: 'pincoyablackblack';
  	color: #5c00e6;    /* middle purple */
  	font-size: 42pt;
- 	
+ 	margin:0;
+ 	padding:0;
  }
 
+ #top-slogan{
+ 	height: 48pt;
+ }
+
+span#top-word1, span#top-word2{
+	height: 44pt;
+}
  span#top-word1:hover{
  	color: #9900ff;  /* light purple color */
+ 	margin-bottom:0;
+ 	display:inline-block;
  }
 
  span#top-word2:hover{
  	color: #9900ff;  /* light purple color */
+ 	margin-bottom:0;
  }
 
  .bottom-slogan{
   	font-family: 'Indie Flower', cursive;
- 	color : #000066;  /* darkish purple */
+ 	/* color : #000066;  darkish purple */
+ 	/* color : #5c00e6;  middle logo purple */
+ 	/* color: #6600cc;   slightly darker than middle, logo purple */
+ 	color: #4c0099;   /* 2 steps darker */
  	font-weight: bold;
  	font-size:18pt;
+ 	margin-top:0;
+ 	padding-top:0;
+
  }
 
  .rockIt{
@@ -101,41 +119,39 @@ div.circle:hover {
 
  .contribute-link{
  	font-family: 'Indie Flower', cursive;
- 	color: #f84342;  /* red color */
+ 	color: #6600cc;    /* slightly darker than middle, logo purple */
+ 	/*color: #f84342;   red color */
+ 	/*color: #00004d;  dark purple */
  	font-size: 16pt;
  }
  	
 
 .contribute-link:hover{
 	text-decoration:none;
-	color: #9900ff;  /* light purple color */
-	padding:0;
+	color: #f84342;  /* red color */
+
 }
 .contribute-link:active{
 	text-decoration:none;
-	color: #00004d;  /* dark purple */
-	padding:0;
+	color: #660000;  /* darker red color */
 }
-
-
-
 
  .about-link{
  	font-family: 'Indie Flower', cursive;
- 	color: #6600cc;  /* little bit darker purple */
+ 	color: #6600cc;    /* slightly darker than middle, logo purple */
  	font-size: 16pt;
  }
  	
 
 .about-link:hover{
 	text-decoration:none;
-	color: #f84342;  /* red color */
-	padding:0;
+	color: #9900ff;  /* light purple color */
+
 }
 .about-link:active{
 	text-decoration:none;
-	color: #660000;  /* darker red color */
-	padding:0;
+	color: #00004d;  /* dark purple */
+
 }
 
 
@@ -295,7 +311,10 @@ h2 {
 
 h2 span {
   font-family: 'Indie Flower', cursive;
-  color: #5c00e6;    /* middle purple */
+  color: #6600cc;    /* slightly darker than middle, logo purple */
+  /* color: #00004d;  dark purple */
+  /* color: #5c00e6;   middle purple */
+  /* color: #808080;  /* grey */
   font-weight:bold;
 }
 
