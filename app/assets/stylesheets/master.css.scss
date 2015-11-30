@@ -65,19 +65,20 @@ div.circle:hover {
  	color: #9900ff;  /* light purple color */
  }
 
-  #bottom-slogan{
+  .bottom-slogan{
   	font-family: 'Indie Flower', cursive;
- 	color:#00001a;
+ 	/* color:#00001a; */
+ 	color : #000066;  /* darkish purple */
  	font-weight: bold;
  	/* font-size: 24pt; */
  	font-size:18pt;
  }
 
- #rockIt{
+ .rockIt{
  	color: #f84342;  /* red color */
  }
 
- span#rockIt:hover {
+ span.rockIt:hover {
 	color:#e23af6;
 }
 
@@ -325,7 +326,7 @@ h2 span {
 	/* font-family: 'Indie Flower', cursive; */
 	color: #5c00e6;    /* middle purple */
   	font-weight:bold;
-  	font-style: italic;
+  	/* font-style: italic; */
   	font-size:38pt;
 	
 }
