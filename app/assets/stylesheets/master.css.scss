@@ -1,6 +1,19 @@
 
 @import url(https://fonts.googleapis.com/css?family=Fredoka+One);
 
+/* colors */
+/* color:#808080;  grey... */
+/* color: #f84342;  red color */
+/* color: #9900ff;  light purple color */
+/* color: #5c00e6;   middle purple */
+/* color: #6600cc;  little bit darker purple */
+/* color: #000066;   Med-Dark purple */
+/* color: #3333cc;  Dark purple */
+/* color: #00004d;  Darker purple */
+
+ 
+
+
 /* This is from the final touches lesson.... */
 ::selection {
 	background-color: #f84342;
@@ -10,6 +23,7 @@
 .clear {
 	clear:both;
 }
+
 .circle-container {
 	padding-top: 20px;
 	padding-left: 30px;
@@ -35,6 +49,7 @@
     -ms-transform:rotate(11deg); /* IE 9 */
     -webkit-transform:rotate(11deg); /* Opera, Chrome, and Safari */
 }
+
 div.circle:hover {
 	background: #e23af6;
 	transform:rotate(-11deg);
@@ -50,27 +65,23 @@ div.circle:hover {
 
  #top-slogan{
  	font-family: 'pincoyablackblack';
- 	/* color:#808080;  grey... */
  	color: #5c00e6;    /* middle purple */
- 	/* color: #3333cc;  Dark purple */
- 	/* color: #000066;   Med-Dark purple */
- 	/* color: #00004d;  Darker purple */
  	font-size: 42pt;
  	
  }
+
  span#top-word1:hover{
  	color: #9900ff;  /* light purple color */
  }
+
  span#top-word2:hover{
  	color: #9900ff;  /* light purple color */
  }
 
-  .bottom-slogan{
+ .bottom-slogan{
   	font-family: 'Indie Flower', cursive;
- 	/* color:#00001a; */
  	color : #000066;  /* darkish purple */
  	font-weight: bold;
- 	/* font-size: 24pt; */
  	font-size:18pt;
  }
 
@@ -102,23 +113,16 @@ div.circle:hover {
 }
 .contribute-link:active{
 	text-decoration:none;
-	/*background-color:#ff9999;*/
 	color: #00004d;  /* dark purple */
 	padding:0;
 }
 
-//.contribute-link:visited{
-//	text-decoration:none;
-//	color: #009900;  /* green color */	
-//}
+
 
 
  .about-link{
  	font-family: 'Indie Flower', cursive;
- 	/* color: #9900ff;  light purple color */
- 	/* color : #000066;  darkish purple */
  	color: #6600cc;  /* little bit darker purple */
- 	
  	font-size: 16pt;
  }
  	
@@ -133,13 +137,6 @@ div.circle:hover {
 	color: #660000;  /* darker red color */
 	padding:0;
 }
-
-//.about-link:visited{
-//	text-decoration:none;
-//	color: #009900;  /* green color */	
-//}
- 
-/* trying to split up contribute and about... */
 
 
 #contribute-line-thing {
@@ -170,17 +167,11 @@ hr {
 h1 {
 	color : #000066;  /* darkish purple */
 	font-family: 'Fredoka One', cursive;
-	/* font-family: "Helvetica Neue", Helvetica, sans-serif; */
-	/* font-weight:600; */
-	/* letter-spacing: -1.5px; */
 }
 
 h2 {
 	color : #000066;  /* darkish purple */
 	font-family: 'Fredoka One', cursive;
-	/* font-family: "Helvetica Neue", Helvetica, sans-serif; */
-	/* font-weight:600; */
-	/* letter-spacing: -1.5px; */
 }
 
 .next-quote{
@@ -200,10 +191,6 @@ h2 {
 	padding:0;
 }
 
-//.next-quote:visited{
-//	text-decoration:none;
-//	color: #009900;  /* green color */
-//}
 
 .footer-blurb{
 	font-family: 'Indie Flower', cursive;
@@ -213,7 +200,6 @@ h2 {
 
 
 #footer-hack-link, #shameless-promotion-link{
-	/* color: #9900ff;  light purple color */
 	font-family: 'Fredoka One', cursive;
 	color: #6600cc;  /* little bit darker purple */
 		
@@ -225,7 +211,6 @@ h2 {
 
 .container {
 	font-family: 'Fredoka One', cursive;
-	/* color: blue; */
 	color : #000066;  /* darkish purple */
 	font-size: 16pt;
 }
@@ -239,8 +224,8 @@ h2 {
 	font-family: 'pincoyablackblack';
 	color: #5c00e6;    /* middle purple */
 	font-size: 38pt;
-	/* color : #000066;  darkish purple */
 }
+
 .about-header {
 	font-size: 30pt;
 }
@@ -252,8 +237,6 @@ h2 {
 }
 
  .about-page-links{
- 	/* color : #000066;  darkish purple */
- 	/* color: #6600cc;  /* little bit darker purple */
  	color: #5c00e6;    /* middle purple */
  }
  	
@@ -269,10 +252,7 @@ h2 {
 
 }
 
-//.about-link:visited{
-//	text-decoration:none;
-//	color: #009900;  /* green color */	
-//}
+
 
 .about-pic-formatting{
 	margin-top:110px;
@@ -293,7 +273,6 @@ h2 {
 }
 
 #myModalLabel{
-	/* font-family: 'pincoyablackblack'; */
 	font-family: 'Indie Flower', cursive;
 	color: #5c00e6;    /* middle purple */
 	font-size: 24pt;
@@ -303,7 +282,6 @@ h2 {
 }
 #modal-logo{
 	font-family: 'pincoyablackblack';
-	/* color: #5c00e6;    middle purple */
 	color: #9900ff;  /* light purple color */
 	font-size:32pt;
 	
@@ -317,16 +295,13 @@ h2 {
 
 h2 span {
   font-family: 'Indie Flower', cursive;
-  /* color: #dddddd; */
   color: #5c00e6;    /* middle purple */
   font-weight:bold;
 }
 
 .big-quote{
-	/* font-family: 'Indie Flower', cursive; */
 	color: #5c00e6;    /* middle purple */
   	font-weight:bold;
-  	/* font-style: italic; */
   	font-size:38pt;
 	
 }
